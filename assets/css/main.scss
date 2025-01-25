@@ -47,7 +47,7 @@
   figcaption { color: $--secondary-text-color; }
 
   blockquote {
-    border: thin solid $--primary-text-color;
+    border-left: solid $--highlight;
   }
 }
 
@@ -135,9 +135,7 @@ code.has-jax {
 }
 
 blockquote {
-  padding: 1rem;
-
-  p { margin: 0; }
+  padding-left: 1rem;
 }
 
 img {
