@@ -48,6 +48,11 @@
   blockquote {
     border-left: solid $--highlight;
   }
+
+  .callout {
+    border-left: solid $--highlight;
+    background-color: $--highlight;
+  }
 }
 
 @mixin dark-appearance {
@@ -135,6 +140,12 @@ code.has-jax {
 
 blockquote {
   padding-left: 1rem;
+}
+
+.callout {
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 img {
